@@ -57,4 +57,7 @@ const [todos, setTodos] = useState([]);
 Installing npm install @material-ui/core
   Frontend framework for UI design
 
+Component is scomething we write once and use several times on several places, we can reuse that Component
+Props stands for properties which allow is to diffrentiate one component from other
+
 

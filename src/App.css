@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.add_todo_button{
+  margin-top: 2px !important;
+  padding: 2px !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
