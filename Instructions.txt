@@ -1,9 +1,3 @@
-// FireBase
-// React
-// Todo app
-//deployed online
-// database
-
 Creating React APP:
   npx create-react-app todo-app
 
