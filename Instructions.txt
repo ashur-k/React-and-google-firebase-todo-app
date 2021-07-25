@@ -64,6 +64,35 @@ Copy Firebase config mentioned in step 4n
   npm install firebase
   create a new file in src folder call it firebase.js and copy config in it
 
+  Creating database on google firebase  
+    Step 1:
+      click Firestore Database
+      click Create database
+      click start in test mode
+      click next
+      select region closest to you for me eur3(europe-west)
+      clcik enable
+    
+    Step 2:
+      click start collection call it todos
+      Document ID clcik Auto-ID
+      Field add Dield name for e.g. todo
+      Value add todo task input value
+
+    Step 3:
+      To host site unsing google firebase
+      type in terminal firebase intial
+      select yes
+      Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+      Select use exisiting project
+      Select todo app
+      What do you want to use as your public directory? build
+      Configure as a single-page app (rewrite all urls to /index.html)? (y/N) yes
+
+      run follwoing commands:
+        npm run build to build react app for production
+        nd then firebase deploy
+
   
 
 
