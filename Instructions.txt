@@ -44,6 +44,17 @@ Setting-UP Firebase:
     We can use it later.
 
   
+const [todos, setTodos] = useState([]); 
+  we are using state its temporary memory, useState is react hook we need to import it
+  from react to use it, useState([]); in this line we are telling intial state is an empty array
 
+  In next step temporarily adding todo list to state and going to retereive it state
+  using es6 map function. 
+  { todos.map(todo) => (
+
+  )} // () In these brackets we can return some html
+
+Installing npm install @material-ui/core
+  Frontend framework for UI design
 
 
