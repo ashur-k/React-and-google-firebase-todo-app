@@ -1,0 +1,55 @@
+// FireBase
+// React
+// Todo app
+//deployed online
+// database
+
+Creating React APP:
+  npx create-react-app todo-app
+
+Setting-UP Firebase:
+  Go to firebase console with gmail email account
+  https://console.firebase.google.com/u/0/
+  
+  Step 1:
+    Add Project
+    Give Project name: for e.g => todo-app
+    We can enable google analytics for firebase project
+    We can create new google analytic account or choose default
+    Create Project
+    Then click on continue
+    You will end-ip on firebase page
+  
+  Step 2:
+    Look at top-left corner project overview and click little settings icon
+    Look at bottom for your apps, you will see there are no apps in your project
+    next clik </> web dev icon
+    give you app a nick name maybe => todo-app
+    click also set Firebase hosting => this will help us in deployment
+      Now we are going to see Add Firebase SDK this is how we include firebase code into our project
+      We can ignore this for React use Node modules insteads
+    Click next:
+    This  is important step, copy command to install firebase globally to ypur computer
+    by copying pasitng command to your terminal
+      => npm install -g firebase-tools
+      Whenever we are doing install -g it means we are inistalling it globally means around
+      entire computer it doesen' matter if we are inside this project or that project. We are
+      always going to have access to firebase tools.
+    Click next:      
+  
+  Step 3:
+    Copy paste firebase login command to your terminal
+    Allow Firebase to collect CLI usage and error reporting information? (Y/n) : say y 
+    Window will open please choose your account
+    and then allow once its asked
+    Click continue to console
+  
+  Step 4: 
+    Scroll down on oyur console and find Firebase SDK snippet
+    There click config and the object you see is important to connect to your firebase backend
+    We can use it later.
+
+  
+
+
+
