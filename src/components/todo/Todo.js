@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button, List, ListItem, ListItemAvatar, ListItemText, makeStyles, Input, Modal, FormControl } from '@material-ui/core';
-import './Todo.css';
+
 import db from '../../firebase';
 import DeleteIcon from '@material-ui/icons/Delete';
 import WorkIcon from '@material-ui/icons/Work';
