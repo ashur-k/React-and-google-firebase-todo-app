@@ -24,7 +24,8 @@ function App() {
     })
   }, []);
 
-
+  
+  console.log('data', todos)
   const addTodo = (event) => {
     // this will fire when we click the button
     event.preventDefault()
@@ -53,7 +54,7 @@ function App() {
       </FormControl>
       <ul>
         {todos.map(todo => (
-          <Todo todo={todo}/>
+          <Todo key={todo.id} todo={todo}/>
         ))}       
         
       </ul>

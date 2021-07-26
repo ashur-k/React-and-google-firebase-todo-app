@@ -1,4 +1,8 @@
-# Live Link: 
+# Live Link: <a href="https://todo-app-cp-8921a.web.app">Live Hosting Link</a>
+
+# About This Project and what I learn:
+I wanted to practice Firebase Crud functionality. In this project I implemented simple
+Crud functionality.
 
 # Getting Started with Create React App
 
