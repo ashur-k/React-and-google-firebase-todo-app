@@ -4,7 +4,8 @@ import Todo from './components/todo/Todo';
 import { Container, Typography, FormControl, InputLabel, Input, Button } from '@material-ui/core';
 import './App.css';
 import db from './firebase';
-import firebase from 'firebase'
+import firebase from 'firebase';
+
 
 function App() {
 
