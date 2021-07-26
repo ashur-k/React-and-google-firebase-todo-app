@@ -91,7 +91,12 @@ Copy Firebase config mentioned in step 4n
 
       run follwoing commands:
         npm run build to build react app for production
-        nd then firebase deploy
+        and then firebase deploy
+
+  Installing MAterial UI Icons:
+    npm install @material-ui/icons
+
+
 
   
 

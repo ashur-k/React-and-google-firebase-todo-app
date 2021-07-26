@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Todo from './components/todo/Todo';
 // material UI imports
-import { FormControl, InputLabel, Input, Button } from '@material-ui/core';
+import { Container, Typography, FormControl, InputLabel, Input, Button } from '@material-ui/core';
 import './App.css';
 import db from './firebase';
 import firebase from 'firebase'
@@ -39,8 +39,10 @@ function App() {
 
   return (
     <div className="App">
-
-      <h1>Hello World</h1>
+      <Container className="main__container">
+      <Typography variant="h4" className="typography__h4">
+        Todo App with React and Google Firebase
+      </Typography>
       <FormControl>
         <InputLabel>Write a todo</InputLabel>
         <Input value={input} onChange={event => setInput(event.target.value)}/>
@@ -50,10 +52,11 @@ function App() {
       </FormControl>
       <ul>
         {todos.map(todo => (
-          <Todo text={todo}/>
-        ))}        
+          <Todo todo={todo}/>
+        ))}       
+        
       </ul>
-
+      </Container>
     </div>
   );
 }
